@@ -15,11 +15,18 @@ body {
   justify-content: center;
 }
 
+.header{
+  font-weight: 600;
+  font-size: larger;
+}
+
 .modal {
+  display: flex;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 18px;
 }
 
 .icon {
@@ -48,6 +55,22 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+}
+
+.top-right{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.warning{
+  margin-right: 18px;
+
+}
+
+.text{
+  padding: 8px 0;
 }
 
 button {
